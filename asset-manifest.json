@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.60803ad1.css",
-    "main.js": "/static/js/main.3ab5930e.js",
-    "static/js/787.ddd7cffb.chunk.js": "/static/js/787.ddd7cffb.chunk.js",
-    "static/media/arancini.jpg": "/static/media/arancini.25970a241722f99c442d.jpg",
-    "static/media/Welcome.jpg": "/static/media/Welcome.743bd43f372b7f3cfe4b.jpg",
-    "static/media/pizzaCrudo.jpg": "/static/media/pizzaCrudo.f4775b94fc3543fae98b.jpg",
-    "static/media/rana.jpg": "/static/media/rana.98065ce2ea325d018c85.jpg",
-    "static/media/logo.png": "/static/media/logo.14efee5ebad63ff45819.png",
-    "index.html": "/index.html",
-    "main.60803ad1.css.map": "/static/css/main.60803ad1.css.map",
-    "main.3ab5930e.js.map": "/static/js/main.3ab5930e.js.map",
-    "787.ddd7cffb.chunk.js.map": "/static/js/787.ddd7cffb.chunk.js.map"
+    "main.css": "/PapaDeGino/static/css/main.60803ad1.css",
+    "main.js": "/PapaDeGino/static/js/main.0c86a0eb.js",
+    "static/js/787.ddd7cffb.chunk.js": "/PapaDeGino/static/js/787.ddd7cffb.chunk.js",
+    "static/media/arancini.jpg": "/PapaDeGino/static/media/arancini.25970a241722f99c442d.jpg",
+    "static/media/Welcome.jpg": "/PapaDeGino/static/media/Welcome.743bd43f372b7f3cfe4b.jpg",
+    "static/media/pizzaCrudo.jpg": "/PapaDeGino/static/media/pizzaCrudo.f4775b94fc3543fae98b.jpg",
+    "static/media/rana.jpg": "/PapaDeGino/static/media/rana.98065ce2ea325d018c85.jpg",
+    "static/media/logo.png": "/PapaDeGino/static/media/logo.14efee5ebad63ff45819.png",
+    "index.html": "/PapaDeGino/index.html",
+    "main.60803ad1.css.map": "/PapaDeGino/static/css/main.60803ad1.css.map",
+    "main.0c86a0eb.js.map": "/PapaDeGino/static/js/main.0c86a0eb.js.map",
+    "787.ddd7cffb.chunk.js.map": "/PapaDeGino/static/js/787.ddd7cffb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.60803ad1.css",
-    "static/js/main.3ab5930e.js"
+    "static/js/main.0c86a0eb.js"
   ]
 }
