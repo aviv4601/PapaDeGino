@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.meals {
+  width: 100%;
+}
+.checkout {
+  border-radius: 6px;
+  margin-right: 35px;
+  border-bottom: 2px;
+  text-align: center;
+}
+
+@media (min-width: 850px) {
+  .checkout {
+    margin-top: 30px;
+    top: 20px;
+    padding-top: 20px;
+    width: 30%;
+    background-color: rgb(242, 242, 242);
+  }
+}
+@media (max-width: 450px) {
+  .container {
+    display: block;
+  }
+}

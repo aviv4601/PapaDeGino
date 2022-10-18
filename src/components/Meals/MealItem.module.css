@@ -1,0 +1,28 @@
+.meal {
+  justify-content: space-between;
+  text-align: left;
+  display: flex;
+}
+
+.meal h3 {
+  margin: 0 0 2rem 0;
+}
+
+.description {
+  font-style: italic;
+}
+
+.price {
+  margin-top: 2rem;
+  font-weight: bold;
+  color: rgb(0, 36, 9);
+  font-size: 1.25rem;
+}
+
+@media (max-width:450px) {
+  .meal{
+    display: block;
+    
+  }
+  
+}

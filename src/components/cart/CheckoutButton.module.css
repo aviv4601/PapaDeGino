@@ -1,0 +1,97 @@
+.empty-cart {
+  background-color: grey;
+  position: fixed;
+  bottom: 0%;
+  height: 12%;
+  width: 20%;
+  align-items: center;
+  display: flex;
+  margin: 16px;
+  border-radius: 6px;
+  color: rgb(36, 33, 33);
+  justify-content: space-between;
+  border-color: white;
+  pointer-events: none;
+}
+
+.checkout-btn {
+  background-color: black;
+  position: fixed;
+  bottom: 0%;
+  height: 12%;
+  width: 20%;
+  align-items: center;
+  display: flex;
+  margin: 16px;
+  border-radius: 6px;
+  color: white;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.checkout-btn:hover {
+  background-color: rgb(46, 44, 44);
+}
+.bottom-text {
+  margin: 10px;
+  font-weight: bold;
+}
+
+.zero-price {
+  color: rgb(36, 33, 33);
+}
+
+.checkout-price {
+  font-weight: bold;
+  color: gray;
+  font-weight: bold;
+}
+
+.num-of-items {
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  width: 10%;
+  color: black;
+  padding: 0.2rem;
+  margin-right: 10px;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 450px) {
+  .checkout-btn {
+    bottom: 0%;
+    right: 0%;
+    height: 12%;
+    width: 35%;
+  }
+
+  .empty-cart {
+    bottom: 0%;
+    right: 0%;
+    height: 12%;
+    width: 35%;
+  }
+}

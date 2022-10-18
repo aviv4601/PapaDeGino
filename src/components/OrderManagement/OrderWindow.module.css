@@ -1,0 +1,69 @@
+.buttons {
+  width: 58%;
+  display: inline-block;
+  border-color: rgb(24, 18, 24);
+  border-radius: 28px;
+  border-style: solid;
+  border-width: 2px;
+  justify-content: space-evenly;
+  height: 38px;
+  flex: 0.5 1 0%;
+  align-items: flex-start;
+}
+
+.service-option-btn {
+  top: 20%;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 28px;
+  border: none;
+  font-weight: bold;
+  width: 50%;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.service-option-btn-activated {
+  margin: 3px;
+  height: 32px;
+  font-weight: 500;
+  border-radius: 28px;
+  border-style: solid;
+  border-width: 4px;
+  background-color: black;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  width: 47%;
+  font-size: 16px;
+  color: white;
+}
+
+.cancel-btn {
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+  right: 16px;
+  top: 20px;
+  z-index: 1000;
+  border-radius: 45%;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  width: 40px;
+  height: 5vh;
+  font-size: larger;
+}
+
+.submited-order {
+  margin-left: 14%;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+@media (max-width: 450px) {
+  .buttons {
+    width: 78%;
+  }
+  
+}

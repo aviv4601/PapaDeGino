@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,700&display=swap');
+
+.order{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(42, 40, 40);
+    position: fixed;
+    text-align: center;
+    opacity: 0.85;
+    color:white;
+    font-size: 80px;
+    bottom:0px;
+    text-decoration: none;
+}

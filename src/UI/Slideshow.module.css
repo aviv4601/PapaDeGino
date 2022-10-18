@@ -1,0 +1,46 @@
+.sliderStyle {
+  width: 100%;
+  display:fixed;
+  justify-content: center;
+  align-items: center;
+}
+
+.Slidestyle img {
+  position:absolute;
+  width: 80%;
+  height:100%;
+  border-radius: 10px;
+  margin-left: 10%;
+  transition:transform 2s;
+}
+
+.Slidestyle img:hover {
+    transform: scale(1.03);
+  }
+
+.rightArrowStyles {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 0px;
+  font-size: 60px;
+  color: "#fff";
+  z-index: 1;
+  cursor: pointer;
+  user-select: none;
+  background-color: aliceblue;
+}
+
+.leftArrowStyles {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 0px;
+  color: "#fff";
+  z-index: 10;
+  cursor: pointer;
+  font-size: 60px;
+  user-select: none;
+  background-color: aliceblue;
+  opacity: 0.85;
+}

@@ -1,0 +1,37 @@
+.container {
+  position: absolute;
+  margin-right: 36%;
+  display: flex;
+  right: 17%;
+  top:7.5%;
+}
+
+.icon {
+  color: white;
+  justify-content: space-evenly;
+  margin-right: 16px;
+  margin-top: 2px;
+  size: 3px;
+}
+
+.icon:hover {
+  animation: spin-icon 0.8s;
+}
+
+@keyframes spin-icon {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    display: flex;
+    top: 22%;
+    left: 30%;
+    font-size: smaller;
+  }
+}

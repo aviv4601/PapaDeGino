@@ -1,0 +1,56 @@
+.container {
+  width: 400px;
+  height: 27rem;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  font-weight: bold;
+  padding-top: 4%;
+}
+
+.total-amount {
+  margin-top: 10%;
+  font-size: x-large;
+  font-weight: bold;
+}
+.order-btn {
+  margin-top: 5%;
+  float: right;
+  padding: 5%;
+  font-size: xx-large;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 14px;
+  cursor: pointer;
+}
+.order-btn:hover{
+  margin-top: 5%;
+  float: right;
+  padding: 5%;
+  font-size: xx-large;
+  background-color: rgb(55, 52, 52);
+  color: white;
+  font-weight: bold;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+@media (max-width:450px) {
+  .order-btn{
+    float: left;
+    margin-left: 18%;
+    margin-top: 8%;
+  }
+  .order-btn:hover{
+    float:left;
+  }
+}
