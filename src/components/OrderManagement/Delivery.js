@@ -1,6 +1,6 @@
 import React, { useContext, useRef, useState } from "react";
 import classes from "./Delivery.module.css";
-import CartContext from "../../store/cart-cotext";
+import CartContext from "../../Store/cart-cotext";
 
 const isEmpty = (value) => value.trim().length === 0;
 const isTenChars = (value) => value.trim().length === 10;

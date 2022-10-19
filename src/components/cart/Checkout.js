@@ -1,6 +1,6 @@
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Fragment, useContext } from "react";
-import CartContext from "../../store/cart-cotext";
+import CartContext from "../../Store/cart-cotext";
 import classes from "./Checkout.module.css";
 import CheckoutButton from "./CheckoutButton";
 import Cart from "./Cart";

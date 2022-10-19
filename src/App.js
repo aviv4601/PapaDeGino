@@ -1,9 +1,9 @@
 import MainHeader from "./components/NavBar/MainHeader";
 import { Route, Routes } from "react-router-dom";
-import Orders from "./pages/Orders";
-import Menu from "./pages/Menu";
+import Orders from "./Pages/Orders";
+import Menu from "./Pages/Menu";
 import { Fragment } from "react";
-import Homepage from "./pages/Homepage";
+import Homepage from "./Pages/Homepage";
 import "./App.css";
 
 function App() {

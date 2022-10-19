@@ -1,9 +1,9 @@
 import { LinearProgress } from "@mui/material";
 import React, { useState,useEffect } from "react";
-import Checkout from "../components/cart/Checkout";
+import Checkout from "../components/Cart/Checkout";
 import Meals from "../components/Meals/Meals";
 import OrderWindow from "../components/OrderManagement/OrderWindow";
-import CartProvider from "../store/CartProvider";
+import CartProvider from "../Store/CartProvider";
 import classes from "./Menu.module.css";
 
 const Menu = ({ children }) => {

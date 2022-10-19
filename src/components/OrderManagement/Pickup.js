@@ -3,7 +3,7 @@ import classes from "./Pickup.module.css";
 import RestaurantIcon from "@mui/icons-material/Restaurant";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import Calendar from "./Calendar";
-import CartContext from "../../store/cart-cotext";
+import CartContext from "../../Store/cart-cotext";
 
 const isEmpty = (value) => value.trim().length === 0;
 

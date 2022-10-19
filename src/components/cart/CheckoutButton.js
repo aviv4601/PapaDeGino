@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import classes from "./CheckoutButton.module.css";
-import CartContext from "../../store/cart-cotext";
+import CartContext from "../../Store/cart-cotext";
 
 const CheckoutButton = (props) => {
   const cartCtx = useContext(CartContext);
